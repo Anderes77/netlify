@@ -1,4 +1,4 @@
-import { defineStackbitConfig } from '@stackbit/types';
+import { defineStackbitConfig } from '@stackbit/cms-contentful';
 
 export default defineStackbitConfig({
     "stackbitVersion": "~0.6.0",
@@ -15,5 +15,5 @@ export default defineStackbitConfig({
     models: {
     page: { type: 'page', urlPath: '/{slug}' },
   },
-    "postInstallCommand": "npm i --no-save @stackbit/types"
+    "postInstallCommand": "npm i --no-save @stackbit/cms-contentful"
 })
