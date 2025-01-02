@@ -1,4 +1,4 @@
-import { defineStackbitConfig } from '@stackbit/types';
+import { defineStackbitConfig } from '@stackbit/cms-contentful';
 
 export default defineStackbitConfig({
     "stackbitVersion": "~0.6.0",
